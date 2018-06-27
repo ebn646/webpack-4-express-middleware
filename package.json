@@ -1,0 +1,40 @@
+{
+  "name": "hmr-webpack-hot-middleware",
+  "version": "0.0.1",
+  "description": "Example project showing use of webpack hot middleware.",
+  "main": "server.js",
+  "scripts": {
+    "start": "npm run start:dev & npm run start:server",
+    "start:dev": "webpack-dev-server --mode development --open",
+    "start:server": "node server"
+  },
+  "keywords": [
+    "webpack",
+    "webpack-dev-server",
+    "webpack-hot-middleware",
+    "express",
+    "HMR",
+    "hot module replacement"
+  ],
+  "author": "Andrew H Farmer",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ahfarmer/webpack-hmr-3-ways.git"
+  },
+  "dependencies": {
+    "express": "^4.16.2",
+    "webpack-dev-middleware": "^2.0.4"
+  },
+  "devDependencies": {
+    "css-loader": "^0.28.11",
+    "node-sass": "^4.9.0",
+    "pug": "^2.0.3",
+    "pug-loader": "^2.4.0",
+    "sass-loader": "^7.0.3",
+    "style-loader": "^0.21.0",
+    "webpack": "^4.12.2",
+    "webpack-cli": "^3.0.8",
+    "webpack-dev-server": "^3.1.4"
+  }
+}
